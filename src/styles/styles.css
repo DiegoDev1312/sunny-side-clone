@@ -119,7 +119,7 @@ nav menu a {
     color: #FFF;
 }
 
-#contact, #contact--hamburger-menu {
+#contact-button, #contact--hamburger-menu {
     background-color: #FFF;
     color: #000;
     border-radius: 5rem;
@@ -132,7 +132,7 @@ nav menu a {
     width: 50%;
 }
 
-#contact:hover {
+#contact-button:hover {
     background-color: transparent;
     color: #FFF;
 }
@@ -296,13 +296,17 @@ small {
 .gallery-image img {
     width: 100%;
     height: 25rem;
-    background-position: center;
-    background-size: contain;
+    object-position: center;
+    object-fit: cover;
 }
 
 footer {
     text-align: center;
     background-color: hsl(168, 66%, 52%);
+}
+
+footer img {
+    padding-top: 1rem;
 }
 
 footer menu {
